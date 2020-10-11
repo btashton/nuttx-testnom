@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nxtestnom"
+version = "0.0.1"
+description = "Web application for collecting NuttX test data"
+authors = ["Brennan Ashton <bashton@brennanashton.com>"]
+license = "Apache Software License"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+Flask-Dance = "^3.0.0"
+sentry-sdk = {extras = ["flask"], version = "^0.18.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
