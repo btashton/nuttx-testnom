@@ -1,6 +1,7 @@
 # NuttX TestNom
-I eat Apache NuttX test reports... nom nom nom
 ![CI](https://github.com/btashton/nuttx-testnom/workflows/CI/badge.svg)
+
+![TestNom](./assets/testnom.svg)
 
 This is a web application for collecting test data for NuttX commits and releases in a more structured way so that it is easier to track the state of things going forward.
 
